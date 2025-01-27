@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||刘|丽|祝|你|春|节|快|乐|#rectangle|#end');
+      S.UI.simulate('|#countdown 3|牛腻腻|祝你|春节快乐|万事胜意|永远|笑口常开|喜乐多福|#rectangle|#end');
     }
 
     S.Drawing.loop(function () {
@@ -204,7 +204,7 @@ S.UI = (function () {
           break;
 
         case 'end':
-          window.location.href = "https://zxiubo.github.io/fireworks/index2.html";
+          window.location.href = "https://zxiubo.github.io/fireworks/fireworks.html";
           break;
 
         default:
