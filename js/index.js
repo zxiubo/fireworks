@@ -204,7 +204,7 @@ S.UI = (function () {
           break;
 
         case 'end':
-          window.location.href = "http://localhost:63342/fireworks/index2.html";
+          window.location.href = "https://zxiubo.github.io/fireworks/index2.html";
           break;
 
         default:
